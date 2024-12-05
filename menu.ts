@@ -38,34 +38,20 @@ export const dashboardPagesMenu = {
 		icon: 'Dashboard',
 		subMenu: null,
 	},
-	dashboardProject: {
-		id: 'dashboardProject',
-		text: 'Dashboard Projects',
-		path: 'project-management/list',
-		icon: 'AutoStories',
-		notification: true,
-		subMenu: null,
-	},
-	dashboardBooking: {
-		id: 'dashboard-booking',
-		text: 'Dashboard Booking',
-		path: 'dashboard-booking',
-		icon: 'emoji_transportation',
-		subMenu: null,
-	},
-	crmDashboard: {
-		id: 'crmDashboard',
-		text: 'CRM Dashboard',
-		path: 'crm/dashboard',
-		icon: 'RecentActors',
-	},
-	summary: {
-		id: 'summary',
-		text: 'Summary',
-		path: 'summary',
-		icon: 'sticky_note_2',
-		subMenu: null,
-	},
+	// dashboardBooking: {
+	// 	id: 'dashboard-booking',
+	// 	text: 'Dashboard Booking',
+	// 	path: 'dashboard-booking',
+	// 	icon: 'emoji_transportation',
+	// 	subMenu: null,
+	// },
+	// summary: {
+	// 	id: 'summary',
+	// 	text: 'Summary',
+	// 	path: 'summary',
+	// 	icon: 'sticky_note_2',
+	// 	subMenu: null,
+	// },
 };
 
 export const demoPagesMenu = {

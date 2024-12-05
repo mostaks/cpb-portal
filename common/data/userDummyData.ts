@@ -99,12 +99,12 @@ const ella: IUserProps = {
 
 const chloe: IUserProps = {
 	id: '6',
-	username: 'chloe',
-	name: 'Chloe',
-	surname: 'Walker',
+	username: 'admin',
+	name: 'Admin',
+	surname: '',
 	position: 'Staff',
-	email: 'chloe@omtanke.studio',
-	src: UserImage6,
+	email: 'admin@candypartybus.com',
+	src: UserImage4,
 	isOnline: true,
 	color: 'warning',
 	services: [SERVICES.VOLLEYBALL, SERVICES.CRICKET],

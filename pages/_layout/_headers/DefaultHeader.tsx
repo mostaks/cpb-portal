@@ -1,7 +1,7 @@
 import React from 'react';
 import Header, { HeaderLeft } from '../../../layout/Header/Header';
 import Navigation from '../../../layout/Navigation/Navigation';
-import { componentPagesMenu, pageLayoutTypesPagesMenu } from '../../../menu';
+import { dashboardPagesMenu } from '../../../menu';
 import useDeviceScreen from '../../../hooks/useDeviceScreen';
 import CommonHeaderRight from './CommonHeaderRight';
 
@@ -11,7 +11,7 @@ const DefaultHeader = () => {
 		<Header>
 			<HeaderLeft>
 				<Navigation
-					menu={{ ...pageLayoutTypesPagesMenu, ...componentPagesMenu }}
+					menu={{ ...dashboardPagesMenu }}
 					id='header-top-menu'
 					horizontal={
 						!!deviceScreen?.width &&
