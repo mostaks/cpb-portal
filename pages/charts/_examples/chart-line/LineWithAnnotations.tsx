@@ -11,7 +11,7 @@ import { series } from '../../../../common/data/chartDummyData';
 import Instagram from '../../../../assets/img/instagram.svg';
 
 const LineWithAnnotations = () => {
-	const [state] = useState<IChartOptions>({
+	const [state] = useState<any>({
 		series: [
 			{
 				data: series.monthDataSeries1.prices,
